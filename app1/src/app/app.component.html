@@ -1,0 +1,36 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<!-- <div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+
+<a routerLink="/app1">
+  To App 1 from app2
+</a>
+
+<a routerLink="/home">
+  Home
+</a> -->
+
+
+<div class="container">
+  <div class="left-div">
+    <ul>
+      <li><a routerLink="/app2">
+          Goto App2
+        </a></li>
+      <li><a routerLink="/home">
+          Home
+        </a></li>
+      <li>
+        <a routerLink="/app2/dashboard">
+          App2 Dashboard
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="right-div">
+    <router-outlet></router-outlet>
+  </div>
+</div>
