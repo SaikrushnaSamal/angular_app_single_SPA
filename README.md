@@ -72,5 +72,14 @@ a deployed environment and override the [Import Map](https://github.com/WICG/imp
 import-map-overrides library is already loaded in the index.html of root-html-file, so you can start using it immediately. You can make your
 deployed environment overridable, just like you can do overrides on http://coexisting-angular-microfrontends.surge.sh
 
+## Migrating React-App to Single-SPA compatible
+
+1) Follow steps mention here: https://www.linkedin.com/pulse/microfrontends-single-spa-migration-converting-app-rany/
+
+2) Confirm inside organization-projectname.js contains correct rootComponent.
+```sh
+rootComponent: App,
+```
+
 ## More documentation
 Go to https://github.com/CanopyTax/single-spa-angular to learn how all of this works.
